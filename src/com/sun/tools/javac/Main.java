@@ -38,6 +38,7 @@ public class Main {
      *  Note: This method calls System.exit.
      *  @param args command line arguments
      */
+    // 运行时 添加命令行参数，参数为一个class的path
     public static void main(String[] args) throws Exception {
         System.exit(compile(args));
     }
